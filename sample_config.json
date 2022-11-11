@@ -1,0 +1,6 @@
+{
+  "api_key": "my_username",
+  "start_date": "2018-01-01T00:00:00Z",
+  "http_timeout_in_seconds": 15,
+  "surveys": []
+}
