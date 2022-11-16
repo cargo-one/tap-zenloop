@@ -3,7 +3,7 @@ from setuptools import setup
 
 setup(
     name="tap-zenloop",
-    version="0.1.0",
+    version="0.1.1",
     description="Singer tap to extract Zenloop data",
     author="cargo.one",
     url="https://cargo.one",
@@ -11,7 +11,7 @@ setup(
     py_modules=["tap_zenloop"],
     install_requires=[
         "singer-python==5.13.*",
-        "requests==2.28.*",
+        "requests>=2.27.0",
         "pendulum==2.1.*",
     ],
     entry_points="""
