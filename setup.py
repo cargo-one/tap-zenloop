@@ -3,7 +3,7 @@ from setuptools import setup
 
 setup(
     name="tap-zenloop",
-    version="0.1.1",
+    version="0.1.2",
     description="Singer tap to extract Zenloop data",
     author="cargo.one",
     url="https://cargo.one",
