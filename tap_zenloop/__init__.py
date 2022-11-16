@@ -57,7 +57,7 @@ def discover():
 
 def _fetch_data(config, survey_id, date_from, date_to, page=1):
     url = f"https://api.zenloop.com/v1/surveys/{survey_id}/answers?date_shortcut=custom&order_by=inserted_at&order_type=asc&page={page}&date_from={date_from}&date_to={date_to}"
-
+    LOGGER.info(f'Requesting data from URL {url}')
     headers = {
         "accept": "application/json",
         "Authorization": f"Bearer {config['api_key']}",
