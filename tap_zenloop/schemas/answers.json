@@ -4,6 +4,12 @@
     "id": {
       "type": "string"
     },
+    "title": {
+      "type": "string"
+    },
+    "public_hash_id": {
+      "type": "string"
+    },
     "score_type": {
       "type": "string"
     },
